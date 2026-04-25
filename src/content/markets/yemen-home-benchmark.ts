@@ -332,7 +332,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           href: playerLinks.sportsPreview,
           visual: {
             kind: "image",
-            src: "/player/sports/tennis.png",
+            src: "/player/sports/Tennis.png",
             alt: "Tennis promotional art",
             theme: "sky",
             label: "Tennis",
