@@ -35,6 +35,27 @@ function CardLinkShell({
   );
 }
 
+const sportVideoById: Partial<
+  Record<string, { src: string; poster: string }>
+> = {
+  basketball: {
+    src: "/videos/basketball.mp4",
+    poster: "/player/sports/basketball.png",
+  },
+  football: {
+    src: "/videos/football.mp4",
+    poster: "/player/sports/football.png",
+  },
+  tennis: {
+    src: "/videos/tennis.mp4",
+    poster: "/player/sports/Tennis.png",
+  },
+  combat: {
+    src: "/videos/martial.mp4",
+    poster: "/player/sports/martial.png",
+  },
+};
+
 export function PlayerFeaturedGrid({
   items,
   direction,
@@ -198,6 +219,7 @@ export function PlayerSportFeatureGrid({
       {items.map((item) => {
         const metaTags = item.tags.slice(0, 2);
         const actionMeta = item.tags[2] ?? item.badge;
+        const sportVideo = sportVideoById[item.id];
 
         return (
           <CardLinkShell key={item.id} href={item.href} className="block h-full">
@@ -209,14 +231,42 @@ export function PlayerSportFeatureGrid({
                 "bg-[var(--color-surface-strong)] shadow-[0_24px_70px_rgba(0,0,0,0.34)]",
               )}
             >
-              <div className="absolute inset-0">
-                <PlayerVisual
-                  visual={item.visual}
-                  className="h-full w-full"
-                  imageClassName="h-full w-full object-cover object-center transition-transform duration-500 ease-out group-hover:scale-[1.03]"
-                  imageSizes="(max-width: 767px) calc(100vw - 2rem), (max-width: 1279px) calc(50vw - 2rem), 360px"
-                  unoptimized
-                />
+              <div className="absolute inset-0 overflow-hidden">
+                {sportVideo ? (
+                  <>
+                    <video
+                      className="pointer-events-none absolute inset-0 h-full w-full object-cover motion-reduce:hidden"
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      preload="metadata"
+                      aria-hidden="true"
+                      tabIndex={-1}
+                      poster={sportVideo.poster}
+                    >
+                      <source src={sportVideo.src} type="video/mp4" />
+                    </video>
+
+                    <div className="hidden h-full w-full motion-reduce:block">
+                      <PlayerVisual
+                        visual={item.visual}
+                        className="h-full w-full"
+                        imageClassName="h-full w-full object-cover object-center"
+                        imageSizes="(max-width: 767px) calc(100vw - 2rem), (max-width: 1279px) calc(50vw - 2rem), 360px"
+                        unoptimized
+                      />
+                    </div>
+                  </>
+                ) : (
+                  <PlayerVisual
+                    visual={item.visual}
+                    className="h-full w-full"
+                    imageClassName="h-full w-full object-cover object-center transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+                    imageSizes="(max-width: 767px) calc(100vw - 2rem), (max-width: 1279px) calc(50vw - 2rem), 360px"
+                    unoptimized
+                  />
+                )}
               </div>
 
               <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(4,5,9,0.06)_0%,rgba(4,5,9,0.12)_18%,rgba(4,5,9,0.38)_52%,rgba(4,5,9,0.92)_100%)]" />
