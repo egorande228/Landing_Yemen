@@ -6,11 +6,7 @@ import PathsChoiceCards from "@/components/sections/paths/PathsChoiceCards";
 import StepsTimeline from "@/components/sections/steps/StepsTimeline";
 import ToolsCalculator from "@/components/sections/tools/ToolsCalculator";
 import { getYemenContent } from "@/content/markets/yemen";
-import { getYemenDirection, resolveYemenLocale } from "@/lib/locale";
-
-type PageProps = {
-  searchParams?: Promise<Record<string, string | string[] | undefined>>;
-};
+import { getYemenDirection } from "@/lib/locale";
 
 const defaultPartnershipContent = getYemenContent("en");
 
@@ -19,9 +15,8 @@ export const metadata: Metadata = {
   description: defaultPartnershipContent.seo.description,
 };
 
-export default async function PartnershipPage({ searchParams }: PageProps) {
-  const resolvedSearchParams = searchParams ? await searchParams : undefined;
-  const locale = resolveYemenLocale(resolvedSearchParams);
+export default function PartnershipPage() {
+  const locale = "en";
   const direction = getYemenDirection(locale);
   const content = getYemenContent(locale);
 

@@ -24,10 +24,10 @@ export default function FinalCtaDualCard({ content, direction }: FinalCtaProps) 
     {
       href: content.primary.href,
       label: content.primary.label,
-      icon: "/whatsapp.png",
-      iconAlt: "WhatsApp",
+      icon: null,
+      iconAlt: "",
       tone: "primary" as const,
-      ariaLabel: direction === "rtl" ? "قدّم عبر واتساب" : "Apply on WhatsApp",
+      ariaLabel: direction === "rtl" ? "قدّم عبر البريد" : "Apply by Mail",
     },
     content.secondary
       ? {
@@ -42,7 +42,7 @@ export default function FinalCtaDualCard({ content, direction }: FinalCtaProps) 
   ].filter(Boolean) as Array<{
     href: string;
     label: string;
-    icon: string;
+    icon: string | null;
     iconAlt: string;
     tone: "primary" | "secondary";
     ariaLabel: string;
@@ -97,19 +97,22 @@ export default function FinalCtaDualCard({ content, direction }: FinalCtaProps) 
                     aria-label={item.ariaLabel}
                     className={cn(
                       "cta-unfold-button",
+                      !item.icon && "cta-unfold-button--text",
                       item.tone === "primary"
                         ? "cta-unfold-button--primary"
                         : "cta-unfold-button--secondary",
                     )}
                   >
                     <span className="cta-unfold-button__inner">
-                      <Image
-                        src={item.icon}
-                        alt={item.iconAlt}
-                        width={18}
-                        height={18}
-                        className="cta-unfold-button__icon"
-                      />
+                      {item.icon ? (
+                        <Image
+                          src={item.icon}
+                          alt={item.iconAlt}
+                          width={18}
+                          height={18}
+                          className="cta-unfold-button__icon"
+                        />
+                      ) : null}
                       <span className="cta-unfold-button__label">{item.label}</span>
                     </span>
                   </a>

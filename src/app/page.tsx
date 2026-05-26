@@ -5,11 +5,7 @@ import PlayerTrendingGamesSection from "@/components/sections/home/PlayerTrendin
 import PlayerTrendingSportsSection from "@/components/sections/home/PlayerTrendingSportsSection";
 import { getYemenPlayerHomeBenchmark } from "@/content/markets/yemen-home-benchmark";
 import { getYemenHomeContent } from "@/content/markets/yemen";
-import { getYemenDirection, resolveYemenLocale } from "@/lib/locale";
-
-type PageProps = {
-  searchParams?: Promise<Record<string, string | string[] | undefined>>;
-};
+import { getYemenDirection } from "@/lib/locale";
 
 const defaultHomeContent = getYemenHomeContent("en");
 
@@ -18,9 +14,8 @@ export const metadata: Metadata = {
   description: defaultHomeContent.seo.description,
 };
 
-export default async function HomePage({ searchParams }: PageProps) {
-  const resolvedSearchParams = searchParams ? await searchParams : undefined;
-  const locale = resolveYemenLocale(resolvedSearchParams);
+export default function HomePage() {
+  const locale = "en";
   const direction = getYemenDirection(locale);
   const content = getYemenHomeContent(locale);
   const benchmark = getYemenPlayerHomeBenchmark(locale);

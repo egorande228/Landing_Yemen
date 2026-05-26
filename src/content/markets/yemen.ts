@@ -6,13 +6,13 @@ import {
 import type { MarketContent, PlayerHomeContent } from "@/schemas/landing";
 
 const yemenLinks = {
-  play: "https://t.me/yemen_play_now",
-  partner: "https://t.me/yemen_partnership",
-  whatsapp: "https://wa.me/967733001122",
-  telegram: "#",
-  applyWhatsapp: "#whatsapp",
-  applyTelegram: "#telegram",
-  email: "mailto:partners@yemenmarket.com",
+  play: "https://refpa3665.com/L?tag=d_4092175m_66329c_MLBYemen26",
+  partner: "https://t.me/Teamcash_GULFcountries",
+  whatsapp: "https://t.me/Teamcash_GULFcountries",
+  telegram: "https://t.me/Teamcash_GULFcountries",
+  applyWhatsapp: "mailto:PAYPARTNERS-MIDDLEAST@MELBET.COM",
+  applyTelegram: "https://t.me/Teamcash_GULFcountries",
+  email: "mailto:PAYPARTNERS-MIDDLEAST@MELBET.COM",
 };
 
 const sharedFooterByLocale: Record<YemenLocale, MarketContent["footer"]> = {
@@ -35,7 +35,7 @@ const sharedFooterByLocale: Record<YemenLocale, MarketContent["footer"]> = {
     contactLabel: "Contact",
     legal: "Copyright 2026 Yemen Market. All rights reserved.",
     contactLinks: [
-      { label: "Contact on WhatsApp", href: yemenLinks.whatsapp },
+      { label: "Mail", href: yemenLinks.email },
       { label: "Contact on Telegram", href: yemenLinks.telegram },
     ],
   },
@@ -58,7 +58,7 @@ const sharedFooterByLocale: Record<YemenLocale, MarketContent["footer"]> = {
     contactLabel: "التواصل",
     legal: "جميع الحقوق محفوظة 2026 لسوق اليمن.",
     contactLinks: [
-      { label: "تواصل عبر واتساب", href: yemenLinks.whatsapp },
+      { label: "Mail", href: yemenLinks.email },
       { label: "تواصل عبر تيليجرام", href: yemenLinks.telegram },
     ],
   },
@@ -350,9 +350,9 @@ const yemenPartnershipByLocale: Record<YemenLocale, MarketContent> = {
     finalCta: {
       eyebrow: "Apply online",
       title: "Start your application.",
-      body: "Choose WhatsApp or Telegram to apply.",
+      body: "Choose Mail or Telegram to apply.",
       helperText: "Pick the channel that suits you best and send your request directly from there.",
-      primary: { label: "Apply", href: yemenLinks.applyWhatsapp },
+      primary: { label: "Mail", href: yemenLinks.applyWhatsapp },
       secondary: { label: "Apply", href: yemenLinks.applyTelegram },
     },
     footer: sharedFooterByLocale.en,
@@ -642,9 +642,9 @@ const yemenPartnershipByLocale: Record<YemenLocale, MarketContent> = {
     finalCta: {
       eyebrow: "قدّم أونلاين",
       title: "ابدأ طلبك.",
-      body: "اختر واتساب أو تيليجرام للتقديم.",
+      body: "اختر البريد أو تيليجرام للتقديم.",
       helperText: "اختر القناة الأنسب لك وأرسل طلبك مباشرة، وسنتابع معك من هناك.",
-      primary: { label: "قدّم", href: yemenLinks.applyWhatsapp },
+      primary: { label: "Mail", href: yemenLinks.applyWhatsapp },
       secondary: { label: "قدّم", href: yemenLinks.applyTelegram },
     },
     footer: sharedFooterByLocale.ar,

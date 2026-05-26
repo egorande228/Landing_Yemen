@@ -1357,10 +1357,22 @@ svg {
   letter-spacing: 0.04em;
 }
 
+.cta-unfold-button--text {
+  min-width: 112px;
+  padding-inline: 1.25rem;
+}
+
 @media (hover: hover) and (min-width: 640px) {
   .cta-unfold-button {
     width: 58px;
     padding-inline: 0;
+  }
+
+  .cta-unfold-button--text,
+  .cta-unfold-button--text:hover,
+  .cta-unfold-button--text:focus-visible {
+    width: auto;
+    padding-inline: 1.25rem;
   }
 
   .cta-unfold-button:hover,
@@ -1387,6 +1399,14 @@ svg {
       max-width 320ms ease,
       opacity 260ms ease,
       transform 320ms ease;
+  }
+
+  .cta-unfold-button--text .cta-unfold-button__label,
+  .cta-unfold-button--text:hover .cta-unfold-button__label,
+  .cta-unfold-button--text:focus-visible .cta-unfold-button__label {
+    max-width: 84px;
+    opacity: 1;
+    transform: translateX(0);
   }
 
   [dir="rtl"] .cta-unfold-button__label {
