@@ -5,7 +5,7 @@ import {
 } from "@/lib/locale";
 import type { MarketContent, PlayerHomeContent } from "@/schemas/landing";
 
-const yemenLinks = {
+export const yemenLinks = {
   play: "https://refpa3665.com/L?tag=d_4092175m_66329c_MLBYemen26",
   partner: "https://t.me/Teamcash_GULFcountries",
   whatsapp: "https://t.me/Teamcash_GULFcountries",
