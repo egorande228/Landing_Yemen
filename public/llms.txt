@@ -1,0 +1,6 @@
+# Yemen Market
+
+Public pages for `melbet-yemen.net`.
+
+- Homepage: https://melbet-yemen.net/
+- Partnership: https://melbet-yemen.net/partnership
