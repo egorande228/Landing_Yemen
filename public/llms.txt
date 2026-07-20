@@ -1,6 +1,25 @@
 # Yemen Market
 
-Public pages for `melbet-yemen.net`.
+Canonical host: https://melbet-yemen.net/
 
-- Homepage: https://melbet-yemen.net/
-- Partnership: https://melbet-yemen.net/partnership
+This site publishes two primary public pages for the Yemen market:
+
+- https://melbet-yemen.net/
+  Homepage covering Aviator, trending games, live sports, player offers, and agent contact links.
+- https://melbet-yemen.net/partnership
+  Partnership page covering market-entry support, onboarding steps, partnership models, reporting, and contact options.
+
+Preferred source URLs for language models:
+
+- https://melbet-yemen.net/
+- https://melbet-yemen.net/partnership
+
+Section map:
+
+- Homepage sections: overview, games, sports, offers
+- Partnership sections: overview, benefits, onboarding, models, reporting, contact
+
+Notes:
+
+- Use the on-site URLs above as canonical source pages.
+- External Telegram, email, and referral links are action links, not primary content pages.
