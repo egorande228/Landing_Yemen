@@ -46,7 +46,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           ctaLabel: "Play Aviator",
           visual: {
             kind: "image",
-            src: "/player/hero/aviatorhero.png",
+            src: "/player/hero/aviatorhero.webp",
             alt: "avitor",
             theme: "crimson",
             label: "Flight",
@@ -70,7 +70,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           ctaLabel: "Open Gates",
           visual: {
             kind: "image",
-            src: "/player/hero/gateshero.png",
+            src: "/player/hero/gateshero.webp",
             alt: "Gates of Olympus promotional art",
             theme: "gold",
             label: "Slot",
@@ -94,7 +94,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           ctaLabel: "Open Sweet Bonanza",
           visual: {
             kind: "image",
-            src: "/player/hero/bonanzahero.png",
+            src: "/player/hero/bonanzahero.webp",
             alt: "Sweet Bonanza promotional art",
             theme: "sky",
             label: "Hot",
@@ -300,7 +300,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           href: playerLinks.sports,
           visual: {
             kind: "image",
-            src: "/player/sports/football.png",
+            src: "/player/sports/football.webp",
             alt: "Football promotional art",
             theme: "emerald",
             label: "Football",
@@ -316,7 +316,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           href: playerLinks.sportsPreview,
           visual: {
             kind: "image",
-            src: "/player/sports/basketball.png",
+            src: "/player/sports/basketball.webp",
             alt: "Basketball promotional art",
             theme: "crimson",
             label: "Basketball",
@@ -332,7 +332,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           href: playerLinks.sportsPreview,
           visual: {
             kind: "image",
-            src: "/player/sports/Tennis.png",
+            src: "/player/sports/Tennis.webp",
             alt: "Tennis promotional art",
             theme: "sky",
             label: "Tennis",
@@ -348,7 +348,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           href: playerLinks.sportsPreview,
           visual: {
             kind: "image",
-            src: "/player/sports/martial.png",
+            src: "/player/sports/martial.webp",
             alt: "combat",
             theme: "slate",
             label: "Fight",
@@ -478,7 +478,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           ctaLabel: "العب Aviator",
           visual: {
             kind: "image",
-            src: "/player/hero/aviatorhero.png",
+            src: "/player/hero/aviatorhero.webp",
             alt: "aviator",
             theme: "crimson",
             label: "Flight",
@@ -502,7 +502,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           ctaLabel: "افتح Gates",
           visual: {
             kind: "image",
-            src: "/player/hero/gateshero.png",
+            src: "/player/hero/gateshero.webp",
             alt: "Gates of Olympus promotional art",
             theme: "gold",
             label: "Slot",
@@ -526,7 +526,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           ctaLabel: "افتح Sweet Bonanza",
           visual: {
             kind: "image",
-            src: "/player/hero/bonanzahero.png",
+            src: "/player/hero/bonanzahero.webp",
             alt: "Sweet Bonanza promotional art",
             theme: "sky",
             label: "Hot",
@@ -793,7 +793,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           href: playerLinks.sports,
           visual: {
             kind: "image",
-            src: "/player/sports/football.png",
+            src: "/player/sports/football.webp",
             alt: "Football promotional art",
             theme: "emerald",
             label: "Football",
@@ -809,7 +809,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           href: playerLinks.sportsPreview,
           visual: {
             kind: "image",
-            src: "/player/sports/basketball.png",
+            src: "/player/sports/basketball.webp",
             alt: "Basketball promotional art",
             theme: "crimson",
             label: "Basketball",
@@ -841,7 +841,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           href: playerLinks.sportsPreview,
           visual: {
             kind: "image",
-            src: "/player/sports/martial.png",
+            src: "/player/sports/martial.webp",
             alt: "combat", 
             theme: "slate",
             label: "Fight",
