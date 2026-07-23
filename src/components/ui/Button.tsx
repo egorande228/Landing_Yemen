@@ -21,6 +21,8 @@ export default function Button({
   className?: string;
 }) {
   const ref = useRef<HTMLAnchorElement>(null);
+  const isReferralLink = href.startsWith("/api/go/");
+  const opensExternally = external || isReferralLink;
 
   useEffect(() => {
     const element = ref.current;
@@ -33,8 +35,8 @@ export default function Button({
     <a
       ref={ref}
       href={href}
-      target={external ? "_blank" : undefined}
-      rel={external ? "noreferrer" : undefined}
+      target={opensExternally ? "_blank" : undefined}
+      rel={isReferralLink ? "sponsored nofollow noopener" : external ? "noreferrer" : undefined}
       className={cn(
         "button",
         intent === "primary" && "button--primary",
@@ -48,4 +50,3 @@ export default function Button({
     </a>
   );
 }
-

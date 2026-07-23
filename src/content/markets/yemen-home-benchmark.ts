@@ -2,14 +2,14 @@ import type { PlayerHomeBenchmarkContent } from "@/components/sections/home/type
 import { localizeHref, type YemenLocale } from "@/lib/locale";
 
 const playerLinks = {
-  play: "https://refpa3665.com/L?tag=d_4092175m_66329c_MLBYemen26",
+  play: "/api/go/casino",
   partnership: "/partnership",
-  games: "https://refpa3665.com/L?tag=d_4092175m_66329c_MLBYemen26",
-  sports: "https://refpa3665.com/L?tag=d_4092175m_66329c_YemenSport",
-  offers: "https://refpa3665.com/L?tag=d_4092175m_66329c_MLBYemen26",
-  livePreview: "https://refpa3665.com/L?tag=d_4092175m_66329c_YemenSport",
-  slotsPreview: "https://refpa3665.com/L?tag=d_4092175m_66329c_MLBYemen26",
-  sportsPreview: "https://refpa3665.com/L?tag=d_4092175m_66329c_YemenSport",
+  games: "/api/go/casino",
+  sports: "/api/go/sports",
+  offers: "/api/go/casino",
+  livePreview: "/api/go/sports",
+  slotsPreview: "/api/go/casino",
+  sportsPreview: "/api/go/sports",
 };
 
 const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent> = {
