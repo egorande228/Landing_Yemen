@@ -11,6 +11,9 @@ const defaultContent = getYemenContent("en");
 export const metadata: Metadata = {
   title: defaultContent.seo.title,
   description: defaultContent.seo.description,
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
