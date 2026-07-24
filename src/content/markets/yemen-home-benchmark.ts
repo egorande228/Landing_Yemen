@@ -47,7 +47,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           visual: {
             kind: "image",
             src: "/player/hero/aviatorhero.webp",
-            alt: "avitor",
+            alt: "Aviator promotional artwork",
             theme: "crimson",
             label: "Flight",
           },
@@ -122,7 +122,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           visual: {
             kind: "image",
             src : "/player/games/aviatoricon.png",
-            alt: "aviator",
+            alt: "Aviator game icon artwork",
             theme: "crimson",
             label: "Crash",
           },
@@ -204,7 +204,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           visual: {
             kind: "image",
             src: "/player/games/jet.png",
-            alt: "crash",
+            alt: "JetX promotional artwork",
             theme: "crimson",
             label: "Crash",
           },
@@ -224,7 +224,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           visual: {
             kind: "image",
             src: "/player/games/poker.png",
-            alt: "live-casino",
+            alt: "Blackjack Live promotional artwork",
             theme: "slate",
             label: "Live",
           },
@@ -349,7 +349,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           visual: {
             kind: "image",
             src: "/player/sports/martial.webp",
-            alt: "combat",
+            alt: "Martial arts promotional artwork",
             theme: "slate",
             label: "Fight",
           },
@@ -479,7 +479,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           visual: {
             kind: "image",
             src: "/player/hero/aviatorhero.webp",
-            alt: "aviator",
+            alt: "Aviator promotional artwork",
             theme: "crimson",
             label: "Flight",
           },
@@ -554,7 +554,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           visual: {
             kind: "image",
             src : "/player/games/aviatoricon.png",
-            alt: "aviator",
+            alt: "Aviator game icon artwork",
             theme: "crimson",
             label: "Crash",
           },
@@ -636,7 +636,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           visual: {
             kind: "image",
             src: "/player/games/jet.png",
-            alt: "crash",
+            alt: "JetX promotional artwork",
             theme: "crimson",
             label: "Crash",
           },
@@ -656,7 +656,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           visual: {
             kind: "image",
             src: "/player/games/poker.png",
-            alt: "live-casino",
+            alt: "Blackjack Live promotional artwork",
             theme: "slate",
             label: "Live",
           },
@@ -825,7 +825,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           href: playerLinks.sportsPreview,
           visual: {
             kind: "image",
-            src: "/player/sports/tennis.png",
+            src: "/player/sports/Tennis.webp",
             alt: "Tennis promotional art",
             theme: "sky",
             label: "Tennis",
@@ -842,7 +842,7 @@ const yemenHomeBenchmarkByLocale: Record<YemenLocale, PlayerHomeBenchmarkContent
           visual: {
             kind: "image",
             src: "/player/sports/martial.webp",
-            alt: "combat", 
+            alt: "Martial arts promotional artwork",
             theme: "slate",
             label: "Fight",
           },

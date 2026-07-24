@@ -656,7 +656,7 @@ const yemenHomeByLocale: Record<YemenLocale, PlayerHomeContent> = {
     seo: {
       title: "Yemen Market | Trending Games, Sports, and Live Action",
       description:
-        "Discover trending games, top sports, fast access, and live player value on the Yemen market home page.",
+        "Discover Aviator, trending games, live sports categories, and player offers on the Yemen Market home page, with fast access and a direct partnership route.",
     },
     nav: {
       brand: {

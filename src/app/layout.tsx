@@ -4,11 +4,13 @@ import "@/app/globals.css";
 import MarketPageShell from "@/components/layout/MarketPageShell";
 import { getYemenContent } from "@/content/markets/yemen";
 import { yemenConfig } from "@/config/yemen";
+import { siteOrigin } from "@/lib/seo";
 import { yemenThemeVars } from "@/themes/yemen";
 
 const defaultContent = getYemenContent("en");
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteOrigin),
   title: defaultContent.seo.title,
   description: defaultContent.seo.description,
   icons: {

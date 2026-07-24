@@ -4,6 +4,30 @@ import Image from "next/image";
 import { cn } from "@/lib/format";
 import type { PlayerIcon, PlayerVisual } from "./types";
 
+function getImageDimensions(src: string) {
+  if (src.includes("/player/hero/gateshero.webp")) {
+    return { width: 800, height: 606 };
+  }
+
+  if (src.includes("/player/hero/")) {
+    return { width: 800, height: 600 };
+  }
+
+  if (src.includes("/player/games/")) {
+    return { width: 1254, height: 1254 };
+  }
+
+  if (src.includes("/player/sports/")) {
+    return { width: 800, height: 1440 };
+  }
+
+  if (src.includes("/offer/")) {
+    return { width: 2172, height: 724 };
+  }
+
+  return { width: 1200, height: 1200 };
+}
+
 function IconGlyph({ icon }: { icon: PlayerIcon }) {
   switch (icon) {
     case "aviator":
@@ -132,6 +156,9 @@ export default function PlayerVisual({
   unoptimized?: boolean;
 }) {
   const isImage = visual.kind === "image";
+  const dimensions = isImage
+    ? getImageDimensions(visual.src)
+    : { width: 1200, height: 1200 };
 
   return (
     <div
@@ -147,9 +174,9 @@ export default function PlayerVisual({
         <Image
           src={visual.src}
           alt={visual.alt}
-          fill
+          width={dimensions.width}
+          height={dimensions.height}
           sizes={imageSizes ?? "(max-width: 640px) 50vw, (max-width: 1200px) 30vw, 240px"}
-          quality={100}
           unoptimized={unoptimized}
           className={cn("player-visual__image", imageClassName)}
         />
