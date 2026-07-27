@@ -36,7 +36,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             window.gtag = window.gtag || function(){window.dataLayer.push(arguments);}
             window.gtag('js', new Date());
-            window.gtag('config', 'G-H865B7KY1Z');
+            window.gtag('config', 'G-H865B7KY1Z'); // Dedicated GA4 stream.
           `}
         </Script>
         <div className="app-root">
