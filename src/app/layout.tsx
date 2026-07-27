@@ -1,3 +1,4 @@
+import Script from "next/script";
 import { Suspense, type CSSProperties } from "react";
 import type { Metadata } from "next";
 import "@/app/globals.css";
@@ -26,6 +27,18 @@ export default function RootLayout({
         style={yemenThemeVars as CSSProperties}
         className="min-h-full"
       >
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-H865B7KY1Z"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics-G-H865B7KY1Z" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            window.gtag = window.gtag || function(){window.dataLayer.push(arguments);}
+            window.gtag('js', new Date());
+            window.gtag('config', 'G-H865B7KY1Z');
+          `}
+        </Script>
         <div className="app-root">
           <div className="app-background" aria-hidden>
             <span className="app-background__wash" />
