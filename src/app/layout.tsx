@@ -31,12 +31,12 @@ export default function RootLayout({
           src="https://www.googletagmanager.com/gtag/js?id=G-H865B7KY1Z"
           strategy="afterInteractive"
         />
-        <Script id="google-analytics-G-H865B7KY1Z" strategy="afterInteractive">
+        <Script id="google-analytics-melbet-yemen-sudan" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             window.gtag = window.gtag || function(){window.dataLayer.push(arguments);}
             window.gtag('js', new Date());
-            window.gtag('config', 'G-H865B7KY1Z'); // Dedicated GA4 stream.
+            var measurementId = window.location.hostname.replace(/^www\\./, '') === 'melbet-sudan.net'\n              ? 'G-7PCT332N0P'\n              : 'G-H865B7KY1Z';\n            window.gtag('config', measurementId); // Dedicated GA4 stream.
           `}
         </Script>
         <div className="app-root">
