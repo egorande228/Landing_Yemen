@@ -31,6 +31,8 @@ export type PlayerVisual =
       kind: "image";
       src: string;
       alt: string;
+      width: number;
+      height: number;
       theme?: PlayerVisualTheme;
       label?: string;
     };

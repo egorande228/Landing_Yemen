@@ -180,6 +180,32 @@ export type PlayerCtaContent = {
   secondary?: LinkItem;
 };
 
+export type PlayerGuideContent = {
+  eyebrow?: string;
+  title: string;
+  intro?: string;
+  answer: string;
+  bylineLabel: string;
+  bylineBody: string;
+  checklistTitle: string;
+  checklist: string[];
+  questions: Array<{
+    question: string;
+    answer: string;
+  }>;
+  tableTitle: string;
+  tableColumns: {
+    section: string;
+    focus: string;
+    action: string;
+  };
+  tableRows: Array<{
+    section: string;
+    focus: string;
+    action: string;
+  }>;
+};
+
 export type MarketContent = {
   seo: {
     title: string;
@@ -285,6 +311,7 @@ export type PlayerHomeContent = {
     primaryCta: LinkItem;
   };
   hero: PlayerHeroContent;
+  guide: PlayerGuideContent;
   trendingGames: PlayerGridSection;
   trendingSports: PlayerGridSection;
   promos: PlayerGridSection;

@@ -10,6 +10,7 @@ import { yemenThemeVars } from "@/themes/yemen";
 const defaultContent = getYemenContent("en");
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://melbet-yemen.net"),
   title: defaultContent.seo.title,
   description: defaultContent.seo.description,
   icons: {

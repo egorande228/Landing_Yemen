@@ -147,7 +147,8 @@ export default function PlayerVisual({
         <Image
           src={visual.src}
           alt={visual.alt}
-          fill
+          width={visual.width}
+          height={visual.height}
           sizes={imageSizes ?? "(max-width: 640px) 50vw, (max-width: 1200px) 30vw, 240px"}
           quality={100}
           unoptimized={unoptimized}
