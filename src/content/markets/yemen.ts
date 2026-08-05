@@ -654,9 +654,9 @@ const yemenPartnershipByLocale: Record<YemenLocale, MarketContent> = {
 const yemenHomeByLocale: Record<YemenLocale, PlayerHomeContent> = {
   en: {
     seo: {
-      title: "Yemen Market | Trending Games, Sports, and Live Action",
+      title: "Yemen Market | Aviator, Live Sports and Top Games",
       description:
-        "Discover trending games, top sports, fast access, and live player value on the Yemen market home page.",
+        "Review Aviator, trending games, live sports, and player offers on the Yemen market homepage before opening the main access routes.",
     },
     nav: {
       brand: {
@@ -726,6 +726,68 @@ const yemenHomeByLocale: Record<YemenLocale, PlayerHomeContent> = {
           },
         ],
       },
+    },
+    guide: {
+      eyebrow: "Player guide",
+      title: "What can visitors learn from the Yemen market homepage?",
+      intro:
+        "This section turns the home page into a quick answer-first guide for visitors comparing games, sports, and the main action links before they click through.",
+      answer:
+        "The Yemen Market home page works as a player-facing review layer that brings the site’s busiest sections into one scan. It places Aviator at the top, then moves into the trending game cards, live sports categories, and player-offer highlights already linked across the page. Visitors can compare fast crash rounds, premium slots, live-table options, football, basketball, tennis, and martial arts before choosing the next action link. The same page also shows where promo support, payout guidance, and the partnership route sit, so someone can understand whether they need player access or an agent conversation. In short, the homepage is designed to reduce guesswork: it gives a faster read on the current board, explains what each section is for, and helps visitors move into the casino or sports route with fewer unnecessary steps.",
+      bylineLabel: "Editorial note",
+      bylineBody:
+        "Prepared by the Yemen Market content team as an on-page guide to the sections, access routes, and support cues already published on this homepage.",
+      checklistTitle: "What this page helps a visitor review quickly",
+      checklist: [
+        "Which featured game cards are positioned as the fastest-entry options right now.",
+        "Which live sports categories stay closest to matchday traffic and in-play movement.",
+        "Which offer blocks mention first-deposit support, payout clarity, live-table play, or matchday boosts.",
+      ],
+      questions: [
+        {
+          question: "What can players open from the homepage?",
+          answer:
+            "The primary player links move visitors into the casino or sports routes, while the visible sections help them decide whether a game, a live event, or a promo-led entry fits the session they want.",
+        },
+        {
+          question: "Which content areas are featured most heavily?",
+          answer:
+            "Aviator leads the hero and game coverage, with supporting cards for premium slots, live-table options, and sports categories such as football, basketball, tennis, and martial arts.",
+        },
+        {
+          question: "Where does the partnership route fit?",
+          answer:
+            "The partnership path is kept separate from player access and appears as a secondary route for visitors who need the agent or partner contact flow instead of the standard play links.",
+        },
+      ],
+      tableTitle: "Homepage section map",
+      tableColumns: {
+        section: "Section",
+        focus: "What to review",
+        action: "Why it matters",
+      },
+      tableRows: [
+        {
+          section: "Hero and Aviator lead",
+          focus: "Aviator, live sports, premium slots, and the main player access link.",
+          action: "Gives visitors a first answer on what the page prioritizes before they move deeper.",
+        },
+        {
+          section: "Trending games",
+          focus: "Aviator, Gates of Olympus, Big Bass Splash, Sweet Bonanza, JetX, and Blackjack Live.",
+          action: "Helps players compare short-session picks, feature-heavy slots, and steadier table options.",
+        },
+        {
+          section: "Trending sports",
+          focus: "Football, basketball, tennis, and martial arts with live-event framing.",
+          action: "Clarifies which sports sections support fast market movement and headline fixtures.",
+        },
+        {
+          section: "Player offers",
+          focus: "First-deposit support, payout clarity, live-table pushes, and matchday boosts.",
+          action: "Shows the value and support cues visitors may want to check before opening access.",
+        },
+      ],
     },
     trendingGames: {
       eyebrow: "Trending games",
@@ -839,9 +901,9 @@ const yemenHomeByLocale: Record<YemenLocale, PlayerHomeContent> = {
   },
   ar: {
     seo: {
-      title: "سوق اليمن | الألعاب والرياضات الرائجة والحركة المباشرة",
+      title: "سوق اليمن | Aviator والرياضات المباشرة وأقوى الألعاب",
       description:
-        "اكتشف الألعاب الرائجة والرياضات الأكثر نشاطاً والوصول السريع والقيمة المباشرة للاعبين على الصفحة الرئيسية لسوق اليمن.",
+        "راجع Aviator والألعاب الرائجة والرياضات المباشرة وعروض اللاعبين على الصفحة الرئيسية لسوق اليمن قبل فتح مسارات الوصول الأساسية.",
     },
     nav: {
       brand: {
@@ -911,6 +973,68 @@ const yemenHomeByLocale: Record<YemenLocale, PlayerHomeContent> = {
           },
         ],
       },
+    },
+    guide: {
+      eyebrow: "دليل اللاعبين",
+      title: "ماذا يتعلم الزائر من الصفحة الرئيسية لسوق اليمن؟",
+      intro:
+        "هذا القسم يحول الصفحة الرئيسية إلى إجابة سريعة وواضحة للزائر الذي يقارن بين الألعاب والرياضات وروابط الدخول قبل الانتقال إلى الخطوة التالية.",
+      answer:
+        "تعمل الصفحة الرئيسية لسوق اليمن كطبقة مراجعة سريعة موجهة للاعبين، لأنها تجمع أهم الأقسام النشطة في مكان واحد. تبدأ الصفحة بـ Aviator ثم تنتقل إلى بطاقات الألعاب الرائجة وفئات الرياضات المباشرة وأبرز عروض اللاعبين المرتبطة بالفعل عبر الصفحة. يستطيع الزائر مقارنة ألعاب الكراش السريعة والسلوت الفاخر وخيارات الطاولات المباشرة وكرة القدم وكرة السلة والتنس والفنون القتالية قبل اختيار رابط الدخول المناسب. كما توضّح الصفحة مكان العروض وإشارات الدفع والسحب ومسار الشراكة، حتى يفهم الزائر بسرعة إن كان يحتاج إلى وصول اللاعبين أو إلى تواصل خاص بالوكلاء. باختصار، الصفحة مصممة لتقليل الحيرة: فهي تعطي قراءة أسرع للمحتوى الحالي، وتشرح وظيفة كل قسم، وتساعد الزائر على الانتقال إلى مسار الكازينو أو الرياضة بخطوات أقل.",
+      bylineLabel: "ملاحظة تحريرية",
+      bylineBody:
+        "أعده فريق محتوى سوق اليمن كدليل داخل الصفحة يشرح الأقسام المنشورة وروابط الوصول وإشارات الدعم الموجودة بالفعل في هذه الصفحة الرئيسية.",
+      checklistTitle: "ما الذي تساعد الصفحة على مراجعته بسرعة؟",
+      checklist: [
+        "أي بطاقات الألعاب تظهر كأسرع الخيارات للدخول الآن.",
+        "أي فئات الرياضات المباشرة تبقى الأقرب إلى حركة المباريات والتغيرات أثناء اللعب.",
+        "أي بطاقات العروض تذكر دعم الإيداع الأول أو وضوح السحب أو اللعب المباشر أو دفعات أيام المباريات.",
+      ],
+      questions: [
+        {
+          question: "ماذا يستطيع اللاعب فتحه من الصفحة الرئيسية؟",
+          answer:
+            "روابط الوصول الأساسية تنقل الزائر إلى مسار الكازينو أو الرياضة، بينما تساعد الأقسام الظاهرة على اختيار ما إذا كانت الجلسة الأنسب تبدأ من لعبة أو حدث مباشر أو عرض محدد.",
+        },
+        {
+          question: "ما أكثر الأقسام حضوراً في الصفحة؟",
+          answer:
+            "يتصدر Aviator المشهد في المقدمة وبطاقات الألعاب، مع دعم من ألعاب السلوت المميزة وخيارات الطاولات المباشرة وفئات الرياضة مثل كرة القدم وكرة السلة والتنس والفنون القتالية.",
+        },
+        {
+          question: "أين يظهر مسار الشراكة؟",
+          answer:
+            "يظهر مسار الشراكة كخيار منفصل عن وصول اللاعبين، ويخدم الزائر الذي يحتاج إلى تواصل خاص بالوكلاء أو الشركاء بدلاً من روابط اللعب الأساسية.",
+        },
+      ],
+      tableTitle: "خريطة أقسام الصفحة الرئيسية",
+      tableColumns: {
+        section: "القسم",
+        focus: "ما الذي تتم مراجعته",
+        action: "لماذا يهم",
+      },
+      tableRows: [
+        {
+          section: "المقدمة وواجهة Aviator",
+          focus: "Aviator والرياضات المباشرة والسلوت الفاخر ورابط وصول اللاعبين الأساسي.",
+          action: "يعطي الزائر إجابة أولى عمّا تمنحه الصفحة أولوية قبل الانتقال إلى الأقسام الأخرى.",
+        },
+        {
+          section: "الألعاب الرائجة",
+          focus: "Aviator وGates of Olympus وBig Bass Splash وSweet Bonanza وJetX وBlackjack Live.",
+          action: "يساعد على مقارنة الجلسات السريعة والسلوت الثقيل وخيارات الطاولات الأهدأ.",
+        },
+        {
+          section: "الرياضات الرائجة",
+          focus: "كرة القدم وكرة السلة والتنس والفنون القتالية مع إطار مباشر للأحداث.",
+          action: "يوضح أي الأقسام تناسب تحرك الأسواق السريع وأيها يدعم المباريات والعناوين الكبرى.",
+        },
+        {
+          section: "عروض اللاعبين",
+          focus: "دعم الإيداع الأول ووضوح السحب والطاولات المباشرة ودفعات أيام المباريات.",
+          action: "يُظهر طبقات القيمة وإشارات الدعم التي قد يراجعها الزائر قبل فتح الوصول.",
+        },
+      ],
     },
     trendingGames: {
       eyebrow: "الألعاب الرائجة",
